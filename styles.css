@@ -37,7 +37,7 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.titulo {
+.container__titulo {
     font-size: 1.8rem;
 }
 
@@ -90,7 +90,6 @@ body {
 
 .secundario__imagem {
     width: 80%;
-    padding: 2em;
 }
 
 .secundario__descricao {
@@ -99,6 +98,8 @@ body {
 
 .descricao__titulo {
     font-size: 3rem;
+    color: var(--cor-texto-principal);
+    margin-bottom: 0.1em;
 }
 
 .descricao__paragrafo {
@@ -109,7 +110,8 @@ body {
 }
 
 .secundario__botao {
-    display: inline-block;    
+    display: inline-block;
+    margin-top: 1em;
 }
 
 .secundario__botao:hover {
@@ -131,7 +133,7 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;  
-    margin: 2em 0 8em 0;  
+    margin: 5em 0;  
 }
 
 .lista__item {
@@ -141,19 +143,20 @@ body {
 
 .rodape {
     text-align: center;
-    margin: 4em 10em;
+    margin: 5em 3em;
 }
 
 .rodape__lista {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    margin: 2em 0; 
+    justify-content: center;
+    margin: 1em; 
 }
 
 .lista__link a {
     font-size: 1em;
     font-weight: 200;
+    margin-left: 1em;
     color: var(--cor-texto-principal);
     text-decoration: none;
 }
@@ -172,4 +175,41 @@ body {
     font-size: 0.9em;
     font-weight: 200;
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+        text-align: center;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__conteudo {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .dispositivos__titulo {
+        margin: 0 0.5em;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
 }

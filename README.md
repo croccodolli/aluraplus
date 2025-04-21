@@ -1,4 +1,9 @@
-# aluraplus
-Página desenvolvida como exercício para o curso "Praticando HTML/CSS" da Alura.
+# **AluraPlus**
+Página web desenvolvida como exercício para o curso "Praticando HTML/CSS" da Alura.
 
-Confere o resultado aqui: https://croccodolli.github.io/aluraplus/
+🛠️ **Construído com**
+HTML | CSS
+
+🔗 Acesse a página: https://croccodolli.github.io/aluraplus/
+
+por _Clara Comandolli_
